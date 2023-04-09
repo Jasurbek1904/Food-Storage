@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@500;700&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(248,249,253) !important;
+}
+
+.mynav{
+    cursor: pointer;
+}
+
+.mynav a{
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.mynav a:hover{
+    color: rgb(255,122,80);
+}
+.mybrand a{
+    text-decoration: none;
+    color: #363853 !important;
+}
+
+.btnSign{
+    background-color: rgb(255,122,80) !important;
+    height: 50%;
+    margin-top: 25px;
+    font-size: 15px !important;
+}
+
+/* Super fast Food delivery service */
+
+.exploreBtn{
+    background: rgb(255,122,80) !important;
+}
+.scooterGuy{
+    width: 80%;
+}
+
+.serviceDiv p{
+    color: #363853;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .serviceDiv{
+        margin-top: 35px !important;
+    }
+    .serviceDiv h1{
+        font-size: 30px;
+    }
+    .serviceDiv p{
+        font-size: 0.75rem;
+    }
+    .serviceDiv .exploreDiv{
+        margin-top: -5px !important;
+    }
+    .exploreBtn{
+        padding: 5px 15px;
+        margin: 8px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .serviceDiv{
+        margin-top: 35px !important;
+    }
+    .serviceDiv h1{
+        font-size: 50px;
+    }
+    .serviceDiv p{
+        font-size: 1rem;
+    }
+    .serviceDiv .exploreDiv{
+        margin-top: -5px !important;
+    }
+    .exploreBtn{
+        padding: 8px 15px;
+        margin: 8px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .serviceDiv{
+        margin-top: 80px !important;
+    }
+    .serviceDiv h1{
+        font-size: 66px
+    }
+    .serviceDiv p{
+        font-size: 20px;
+    }
+    .serviceDiv .exploreDiv{
+        margin-top: -5px !important;
+    }
+    .exploreBtn{
+        padding: 8px 25px;
+        margin: 8px;
+    }
+}
+
+/* popularCategory */
+
+.popularCategory{
+    margin-top: 10%;
+}
+.popularCategory a{
+    text-decoration: none;
+    color: #363853;
+}
+.foodTypes .card{
+    border-radius: 10px;
+    height: 85%;
+    border: none;
+}
+.hell{
+    background:#FF7A50 !important;
+    color: white !important;
+}
+.foodTypes .card .iconCard{
+    margin: 15px auto;
+}
+.pagination{
+    justify-content: center;
+    align-items: center;
+}
+.prevNext{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid blue;
+    padding:5px;
+}
+.page-num{
+    margin: 20px 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid blue;
+    font-size: 25px;
+    padding: 10px;
+    height: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    .foodTypes .col{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .foodTypes .col{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .foodTypes .col{
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .foodTypes .card{
+        height: 100% !important;
+    }
+    
+    .menuCard {
+        width: 100% !important;
+    }
+}
+.foodCard{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.foodImage{
+    width: 80%;
+    position: relative;
+    bottom: 10px;
+    top: 20px;
+}
+
+.foodCard p{
+    position: relative;
+    top: 10px;
+}
+.foodCard h6{
+    position: relative;
+    top: 10px;
+    font-weight: 900;
+}
+.foodCard .addBtn{
+    position: relative;
+    top: 20px;
+    padding: 8px 18px;
+    background-color: #FF7A50 !important;
+    color: white;
+}
+.foodCard .addBtn:hover{
+    color: white;
+}
+/* foodDelivery */
+.foodDeliveryImg{
+    width: 80% !important;
+}
+
+.goodFoodCard{
+    position: relative;
+    top: 200px;
+}
+.goodFoodCard h2{
+    position: relative;
+    top: -30px;
+}
+.goodFoodCard h2>span{
+    color: #FF7A50;
+}
+.goodFoodCard p{
+    font-size: 20px;
+    color: #363853;
+}
+.seeBtn{
+    background-color: #FF7A50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px 30px 1px 30px;
+    border: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .foodDeliveryCard, .goodFoodCard{
+        width: 100% !important;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .delIcon{
+        position: relative;
+        left: -28px !important;
+    }
+    .delspan{
+        position: relative;
+        left: -28px;
+    }
+    .foodDeliveryImg {
+        width: 80% !important;
+        position: relative;
+        left: 30px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .goodFoodCard {
+        position: relative;
+        top: 120px;
+    }
+    .goodFoodCard h2{
+        font-size: 25px;
+    }
+    .goodFoodCard p{
+        font-size: 15px;
+    }
+    .iconcard span{
+        font-size: 13px;
+    }
+    .seeBtn{
+        padding: 8px 12px; 
+        font-size: 12px;
+    }
+}
+
+/* phonesImg */
+
+.mobileApp{
+    margin-top: 130px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .mobileApp{
+    justify-content: center;
+    margin-top: 100px !important;
+  }
+  .mobileApp .goodFoodCard{
+    width: 80% !important;
+  }
+  .mobileApp .phonesImg{
+    position: relative;
+    top: 150px;
+    width: 80% !important;
+  }
+  .phoneDiv{
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+
+/* client */
+
+.client{
+    margin-top: 180px !important;
+    width: 100%;
+}
+
+.clientInfo{
+    margin-top: 150px !important;
+    line-height: 45px;
+    color: #363853;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    size: 20px;
+}
+.string{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 109.12px;
+    letter-spacing: 0.5px;
+    color: #DDDDDD;
+}
+
+.string2{
+    position: relative;
+    left: 600px;
+}
+@media only screen and (min-width: 1200px) {
+    .clientInfo{
+        position: relative;
+        left: 5%;
+    }
+    .clientInfo p{
+        width: 80%;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .clientInfo{
+        margin-top: 120px !important;
+    }
+    .string {
+        position: relative;
+        top: 50px;
+    }
+    .string2{
+        position: relative;
+        left: 400px;
+        top: -40px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+ 
+    .clientInfo{
+        text-align: center;
+        width:80% !important;
+        margin: 30px auto !important;
+    }
+    .string {
+        position: relative;
+        left: -300px;
+        top: 90px;
+    }
+    .string2{
+        position: relative;
+        left: 250px !important;
+        top: -50px;
+    }
+    .clientDiv{
+      margin: 0 auto !important;
+    }
+    .clientImg{
+        width: 60% !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .string {
+        position: relative;
+        left: -230px;
+        top: 90px;
+
+    }
+    .string2{
+        position: relative;
+        left: 200px !important;
+        top: -50px;
+    }
+  
+}
+
+.subscribeDiv{
+    background: #FF7A50;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+
+.subscribeDiv form{
+    padding-left: 50px;
+}
+
+.subscribeDiv input{
+    width: 60%;
+    padding: 18px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    left: 50px;
+}
+
+.subscribeDiv button{
+    position: relative;
+    right: 120px;
+    padding: 8px 30px;
+    border-radius: 50px;
+    background: #FF7A50;
+    border: none;
+    color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    .subscribeDiv h1{
+        font-size: 30px;
+    }
+    .subscribeDiv p{
+        font-size: 12px;
+    }
+    .subscribeDiv input{
+        padding: 8px 10px;
+        font-size: 10px;
+    }
+    .subscribeDiv button{
+        padding: 5px 10px;
+        font-size: 8px;
+        position: relative;
+        right: 40px;
+    }
+    .subscribeDiv svg{
+        height: 10px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .subscribeDiv h1{
+        font-size: 20px;
+    }
+    .subscribeDiv p{
+        font-size: 8px;
+    }
+    .subscribeDiv input{
+        position: relative;
+        left: -10px;
+        width: 80%;
+        font-size: 8px;
+    }
+    .subscribeDiv button{
+        padding: 5px 10px;
+        font-size: 8px;
+        position: relative;
+        top: -28.5px;
+        right: -80px;
+    }
+    .subscribeDiv svg{
+        height: 10px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .subscribeDiv input{
+        position: relative;
+        left: -10px;
+        width: 80%;
+        font-size: 8px;
+    }
+    .subscribeDiv button{
+        padding: 5px 10px;
+        font-size: 8px;
+        position: relative;
+        top: -28.5px;
+        right: -65px;
+    }
+    .subscribeDiv svg{
+        height: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 385px) {
+    .subscribeDiv h1{
+        font-size: 12px;
+    }
+    .subscribeDiv p{
+        font-size: 8px;
+    }
+    .subscribeDiv input{
+        position: relative;
+        left: -15px;
+        width: 100%;
+        font-size: 6px;
+    }
+    .subscribeDiv button{
+        padding: 4px;
+        font-size: 8px;
+        position: relative;
+        top: -27.5px;
+        right: -45px;
+    }
+    .subscribeDiv svg{
+        height: 5px;
+    }
+}
+
+
+
+
+/* myfooter */
+
+.myfooter svg{
+    margin: 10px;
+}
+
+.myfooter a{
+    text-decoration: none;
+    color: #37383D;
+}
+
+.myfooter .col .card{
+    border: none;
+    background:rgb(248,249,253);
+}
+@media only screen and (max-width: 992px) {
+    .myfooter .col{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:600px) {
+    .myfooter .col{
+        width: 60%;
+        margin: 10px auto;
+    }
+}
+
+/* topFoodRestaurant */
+
+.topFoodRestaurant{
+    margin-top: 20%;
+}
+
+.topFoodRestaurant .card span{
+    background: #FF7A50;
+    margin: 5px auto;
+    padding: 3px 30px;
+    position: relative;
+    bottom: 0;
+    right: -50px;
+    border-radius: 50px 50px 0 50px;
+}
+.topFoodRestaurant .card{
+    border-radius: 50px 0 50px 0;
+    border: none;
+}
+
+.topFoodRestaurant .card img{
+    border-radius: 50px 0 0 0;
+}
+@media only screen and (max-width:767px) {
+ .topFoodRestaurant{
+    margin-top: 50%;
+ }
+}

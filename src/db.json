@@ -1,0 +1,312 @@
+{
+    "burger": [
+        {
+            "id": 1,
+            "image": "./Images/burger1.jpg",
+            "title": "Perfect hamburger",
+            "price": "$18.00"
+        },
+        {
+            "id": 2,
+            "image": "./Images/burger2.jpg",
+            "title": "Burger",
+            "price": "$15.00"
+        },
+        {
+            "id": 3,
+            "image": "./Images/burger3.jpg",
+            "title": "Chicken burger",
+            "price": "$16.00"
+        },
+        {
+            "id": 4,
+            "image": "./Images/burger4.jpg",
+            "title": "Quarter pound burger",
+            "price": "$15.00"
+        },
+        {
+            "id": 5,
+            "image": "./Images/blackBurger.jpg",
+            "title": "Black burger",
+            "price": "$12.00"
+        },
+        {
+            "id": 6,
+            "image": "./Images/burger5.jpg",
+            "title": "Burger set",
+            "price": "$20.00"
+        },
+        {
+            "id": 7,
+            "image": "./Images/burger6.jpg",
+            "title": "Junk food concept.",
+            "price": "$14.00"
+        },
+        {
+            "id": 8,
+            "image": "./Images/burger7.jpg",
+            "title": "Fresh green burger",
+            "price": "$16.00"
+        },
+        {
+            "id": 9,
+            "image": "./Images/burger8.jpg",
+            "title": "Burger with beef and cheese",
+            "price": "$20.00"
+        },
+        {
+            "id": 10,
+            "image": "./Images/burger10.jpg",
+            "title": "Special snack",
+            "price": "$20.00"
+        }
+    ],
+    "pizza": [
+        {
+            "id": 1,
+            "image": "./Images/pizza1.jpg",
+            "title": "Mexican pizza",
+            "price": "$22.00"
+        },
+        {
+            "id": 2,
+            "image": "./Images/pizza2.jpg",
+            "title": "Pizza",
+            "price": "$20.00"
+        },
+        {
+            "id": 3,
+            "image": "./Images/pizza3.jpg",
+            "title": "Pizza",
+            "price": "$20.00"
+        },
+        {
+            "id": 4,
+            "image": "./Images/pizza4.jpg",
+            "title": "Pepperoni pizza on white",
+            "price": "$15.00"
+        },
+        {
+            "id": 5,
+            "image": "./Images/pizza9.jpg",
+            "title": "Pizza slice",
+            "price": "$14.00"
+        },
+        {
+            "id": 6,
+            "image": "./Images/pizza5.jpg",
+            "title": "Pizza slice",
+            "price": "$14.00"
+        },
+        {
+            "id": 7,
+            "image": "./Images/pizza6.jpg",
+            "title": "Tasty pizza",
+            "price": "$15.00"
+        },
+        {
+            "id": 8,
+            "image": "./Images/pizza7.jpg",
+            "title": "Greek pizza",
+            "price": "$25.00"
+        },
+        {
+            "id": 9,
+            "image": "./Images/pizza8.jpg",
+            "title": "Delicious Chicago pizza",
+            "price": "$18.00"
+        },
+        {
+            "id": 10,
+            "image": "./Images/pizza10.jpg",
+            "title": "Hot Pizza Served On Table",
+            "price": "$23.00"
+        }
+    ],
+    "sandwich": [
+        {
+            "id": 1,
+            "image": "./Images/sandwich1.jpg",
+            "title": "Club sandwich",
+            "price": "$12.00"
+        },
+        {
+            "id": 2,
+            "image": "./Images/sandwich2.jpg",
+            "title": "Sandwich",
+            "price": "$10.00"
+        },
+        {
+            "id": 3,
+            "image": "./Images/sandwich3.jpg",
+            "title": "Avocado sandwich",
+            "price": "$15.00"
+        },
+        {
+            "id": 4,
+            "image": "./Images/sandwich4.jpg",
+            "title": "Grilled Cheese Sandwich",
+            "price": "$16.00"
+        },
+        {
+            "id": 5,
+            "image": "./Images/sandwich9.jpg",
+            "title": "Vietnamese sandwich",
+            "price": "$18.00"
+        },
+        {
+            "id": 6,
+            "image": "./Images/sandwich5.jpg",
+            "title": "Grilled Cheese Sandwich",
+            "price": "$16.00"
+        },
+        {
+            "id": 7,
+            "image": "./Images/sandwich6.jpg",
+            "title": "Picnic sandwich",
+            "price": "$12.00"
+        },
+        {
+            "id": 8,
+            "image": "./Images/sandwich7.jpg",
+            "title": "Turkey sandwich",
+            "price": "$17.00"
+        },
+        {
+            "id": 9,
+            "image": "./Images/sandwich8.jpg",
+            "title": "Sandwich",
+            "price": "$15.00"
+        },
+        {
+            "id": 10,
+            "image": "./Images/sandwich10.jpg",
+            "title": "Salami sandwich",
+            "price": "$20.00"
+        }
+    ],
+    "asiafood": [
+        {
+            "id": 1,
+            "image": "https://thumbs.dreamstime.com/b/wonton-soup-asia-food-meat-dumplings-bamboo-table-32673496.jpg",
+            "title": "Wonton soup",
+            "price": "$10.00"
+        },
+        {
+            "id": 2,
+            "image": "./Images/asiafood2.jpg",
+            "title": "Thai food",
+            "price": "$12.00"
+        },
+        {
+            "id": 3,
+            "image": "https://thumbs.dreamstime.com/b/chicken-curry-asia-food-7851658.jpg",
+            "title": "Chicken curry",
+            "price": "$20.00"
+        },
+        {
+            "id": 4,
+            "image": "./Images/asiafood4.jpg",
+            "title": "Asia Rice food",
+            "price": "$16.00"
+        },
+        {
+            "id": 5,
+            "image": "./Images/asiafood9.jpg",
+            "title": "Delicious Salad",
+            "price": "$11.00"
+        },
+        {
+            "id": 6,
+            "image": "https://thumbs.dreamstime.com/b/uzbek-national-food-pilaf-traditional-fabric-adras-uzbekistan-most-tasty-central-asia-42178599.jpg",
+            "title": "Uzbek national food pilaf",
+            "price": "$25.00"
+        },
+        {
+            "id": 7,
+            "image": "./Images/asiafood6.jpg",
+            "title": "Chinies Simple food",
+            "price": "$8.00"
+        },
+        {
+            "id": 8,
+            "image": "./Images/asiafood7.jpg",
+            "title": "Cucamber salad",
+            "price": "$14.00"
+        },
+        {
+            "id": 9,
+            "image": "./Images/asiafood8.jpg",
+            "title": "Popular Asia food",
+            "price": "$20.00"
+        },
+        {
+            "id": 10,
+            "image": "https://thumbs.dreamstime.com/z/hainan-chicken-rice-close-up-asian-food-31987218.jpg",
+            "title": "Hainan chicken rice",
+            "price": "$13.00"
+        }
+    ],
+    "setmenu": [
+        {
+            "id": 1,
+            "image": "./Images/setmenu1.jpg",
+            "title": "Sushi with sake",
+            "price": "$15.00"
+        },
+        {
+            "id": 2,
+            "image": "./Images/setmenu2.jpg",
+            "title": "Omakase set menu",
+            "price": "$10.00"
+        },
+        {
+            "id": 3,
+            "image": "./Images/setmenu3.jpg",
+            "title": "Restaurant set menu",
+            "price": "$20.00"
+        },
+        {
+            "id": 4,
+            "image": "./Images/setmenu4.jpg",
+            "title": "Restaurant set menu",
+            "price": "$20.00"
+        },
+        {
+            "id": 5,
+            "image": "https://thumbs.dreamstime.com/b/famous-asian-meal-pan-fried-dumplings-close-up-fresh-bowl-chopsticks-hot-steams-food-rustic-vintage-wooden-60423463.jpg",
+            "title": "Japanese set menu",
+            "price": "$16.00"
+        },
+        {
+            "id": 6,
+            "image": "https://thumbs.dreamstime.com/b/delicious-asian-pork-rice-char-siu-chinese-sticky-spare-ribs-roasted-sweet-savory-sauce-served-boiled-barbecued-46706528.jpg",
+            "title": "Restaurant set menu",
+            "price": "$20.00"
+        },
+        {
+            "id": 7,
+            "image": "./Images/setmenu6.jpg",
+            "title": "Thai food set menu",
+            "price": "$18.00"
+        },
+        {
+            "id": 8,
+            "image": "./Images/setmenu7.jpg",
+            "title": "Fried fish set menu",
+            "price": "$22.00"
+        },
+        {
+            "id": 9,
+            "image": "https://thumbs.dreamstime.com/b/mie-goreng-mi-goreng-indonesian-cuisine-fried-noodles-chicken-prawn-pak-choi-32271427.jpg",
+            "title": "Sukiyaki beef and tofu",
+            "price": "$15.00"
+        },
+        {
+            "id": 10,
+            "image": "https://thumbs.dreamstime.com/b/sukiyaki-beef-set-menu-hot-pot-shabu-pork-pig-liver-sukiyaki-beef-set-menu-hot-pot-shabu-raw-set-pork-pig-liver-squid-98827168.jpg",
+            "title": "Sukiyaki beef set menu",
+            "price": "$30.00"
+        }
+    ]
+}
